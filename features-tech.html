@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <!-- Basic Page Needs
+        ================================================== -->
+    <meta charset="utf-8">
+    <title>openHAB - empowering the smart home</title>
+    <meta name="description" content="OHMY!  HTML5 responsive Website template based on Twitter Bootstrap framework. Easy to customize.">
+    <meta name="author" content="Little NEKO">
+    <!-- Mobile Specific Metas
+        ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS
+        ================================================== -->
+    <!-- Bootstrap  -->
+    <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- web font  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800" rel="stylesheet" type="text/css">
+    <!-- plugin css  -->
+    <link rel="stylesheet" type="text/css" href="js-plugin/pretty-photo/css/prettyPhoto.css" />
+    <link rel="stylesheet" type="text/css" href="js-plugin/rs-plugin/css/settings.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="js-plugin/hoverdir/css/style.css">
+    <!-- icon fonts -->
+    <link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons.css">
+    <link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons-ie7.css">
+    <!-- Custom css -->
+    <link type="text/css" rel="stylesheet" href="css/layout.css">
+    <link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if gte IE 9]><style type="text/css">.iconBig, .active, .hover a , .Shover a { filter: none !important; } </style> <![endif]-->
+
+
+    <script src="js/modernizr-2.6.1.min.js"></script>
+    <!-- Favicons
+        ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="apple-icon.png"  />
+
+    <style type="text/css">
+        .inversedlink {
+            color:#FFFFFF;
+        }
+        .inversedlink:hover {
+            color:#FFFFFF;
+        }
+        .inversedlink:visited {
+            color:#FFFFFF;
+        }
+        .inversedlink:active {
+            color:#FFFFFF;
+        }
+
+    </style>
+
+</head>
+<body>
+<!-- Primary Page Layout
+    ================================================== -->
+<!-- header -->
+<header id="mainHeader" class="clearfix">
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container"> <a href="index.html" class="brand"><img src="images/openhab-logo-top.png" alt="openHAB"/></a>
+                <nav id="mainMenu" class="clearfix">
+                    <ul>
+                        <li><a href="index.html" class="firstLevel" >Home</a>
+                        </li>
+                        <li><a href="features.html" class="firstLevel active">Features</a>
+                        </li>
+                        <li><a href="downloads.html" class="firstLevel">Downloads</a>
+                        </li>
+                        <li><a href="community.html" class="firstLevel">Community</a></li>
+                        <li><a href="https://github.com/openhab/openhab" class="firstLevel">Github</a></li>
+                        <li><a href="https://github.com/openhab/openhab/wiki" class="firstLevel">Wiki</a></li>
+                        <li><a href="https://my.openhab.org/" class="firstLevel">my.openHAB</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header -->
+<!-- global wrapper -->
+<div id="globalWrapper">
+  <!-- page content -->
+  <section id="content" class="fullWidth">
+    <header class="headerPage">
+      <div class="container clearfix">
+        <div class="row">
+          <h1 class="span8">Supported Technologies</h1>
+          <div class="span4" id="navTrail"> <a href="index.html" class="homeLink">home</a><span>/</span><a href="features.html">features</a><span>/</span><a href="features-tech.html">Supported technologies</a> </div>
+        </div>
+      </div>
+    </header>
+  </section>
+    <section id="content" class="features" >
+        <div class="slice clearfix">
+            <div class="container">
+                <div class="row ">
+                    <aside class="span2" id="sidebar">
+                        <nav  id="subnav">
+                            <ul>
+                            <li> <a href="features.html"> Introduction </a> </li>
+                            <li> <a href="features-architecture.html"> Architecture </a> </li>
+                            <li> <a href="features-tech.html" class="active"> Supported Technologies </a> </li>
+                            <li> <a href="features-ui.html"> User Interfaces </a> </li>
+                            <li> <a href="features-rules.html"> Rules And Scripts </a> </li>
+                            <li> <a href="features-persistense.html"> Persistence And Charts </a> </li>
+                            <li> <a href="features-platforms.html"> Supported Platforms </a> </li>
+                            </ul>
+                        </nav>
+                    </aside>
+                    <div class="span10">
+                        <section  id="FIntroduction" class="row-fluid">
+                                <h2>Bindings and Bundles</h2>
+                                <div class="divider"><span></span></div>
+                            <p>
+                                Every technology or device, social network or cloud platform integrated into openHAB is
+                                supported by a specific bundle. Those bundles are optional and pluggable, they can be
+                                added to your openHAB as soon as you need them.
+                            </p>
+                            <p>
+                                Bindings provide integration with different home automation technologies and devices while
+                                there are quite a lot of other bundles providing integration and communication with
+                                social networks, instant messaging, cloud IoT platfroms and much more.
+                            </p>
+                                <table class="table table-striped ">
+                                <thead>
+                                <tr>
+                                    <th>Technology/<br>Device</th>
+                                    <th>Type</th>
+                                    <th>Tags</th>
+                                    <th>Status</th>
+                                    <th>Bundle</th>
+                                    <th>Since</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!--
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><a href=""></a></td>
+                                    <td></td>
+                                </tr>
+                                -->
+                                <tr>
+                                    <td><a href="http://www.asterisk.org">Asterisk</a></td>
+                                    <td>PBX</td>
+                                    <td>telephony, sip</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Asterisk-Binding">asterisk</a></td>
+                                    <td>0.9.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.bluetooth.com/Pages/Bluetooth-Home.aspx">Bluetooth</a></td>
+                                    <td>Wireless</td>
+                                    <td>presence, wearables</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Bluetooth-Binding">bluetooth</a></td>
+                                    <td>0.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.zehnder-systems.com/international/comfosystems/Home,173.html">ComfoAir Zehnder</a></td>
+                                    <td>Device</td>
+                                    <td>ventilation, climate</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Comfo-Air-Binding">comfoair</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td>CUPS</td>
+                                    <td>Device</td>
+                                    <td>printer</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/CUPS-Binding">cups</a></td>
+                                    <td>1.1.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.digitalstrom.com/index.php?cl=start&lang=1">digitalSTROM</a></td>
+                                    <td>Powerline</td>
+                                    <td>lighting, metering, shades</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/digitalSTROM-Binding">digitalstrom</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://en.wikipedia.org/wiki/DMX512">DMX</a></td>
+                                    <td>Wired</td>
+                                    <td>lighting</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/DMX-Binding">dmx</a></td>
+                                    <td>1.2.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.dropbox.com/">Dropbox</a></td>
+                                    <td>Cloud</td>
+                                    <td>storage</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Dropbox-IO">dropbox</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.enocean.org/">EnOcean</a></td>
+                                    <td>Wireless</td>
+                                    <td>lighting, heating, metering</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/EnOcean-Binding">enocean</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.epson.com/cgi-bin/Store/jsp/Projectors/Home.do">Epson Projector</a></td>
+                                    <td>Device</td>
+                                    <td>video, projector</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Epson-Projector-Binding">epsonprojector</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Exec</td>
+                                    <td>Protocol</td>
+                                    <td>cli</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Exec-Binding">exec</a></td>
+                                    <td>0.6.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.avm.de/en/Produkte/FRITZBox/index.html">Fritz Box</a></td>
+                                    <td>PBX</td>
+                                    <td>telephony, sip</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Fritz-Box-Binding">fritzbox</a></td>
+                                    <td>0.7.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.avm.de/">Fritz AHA</a></td>
+                                    <td>Wireless Powerline</td>
+                                    <td>lighting, metering</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Fritz-AHA-Binding">fritzaha</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://www.google.com/calendar">Google Calendar</a></td>
+                                    <td>Cloud</td>
+                                    <td>automation, scheduling</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/GCal-Binding">gcal</a></td>
+                                    <td>1.1.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.heatmiser.com/">Heatmiser</a></td>
+                                    <td>Wired</td>
+                                    <td>heating</td>
+                                    <td>Release</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Heatmiser-Binding">heatmiser</a></td>
+                                    <td>1.4.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.homematic.com/">HomeMatic</a></td>
+                                    <td>Wireless</td>
+                                    <td>lighting, heating, shades, security, metering</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Homematic-Binding">homematic</a></td>
+                                    <td>1.2.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Http</td>
+                                    <td>Protocol</td>
+                                    <td>http</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Http-Binding">http</a></td>
+                                    <td>0.6.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.elkoep.com/products/inels-bus-system/">IHC / ELKO</a></td>
+                                    <td>Wired</td>
+                                    <td>lighting, heating, shades, security, metering</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/IHC-Binding">ihc</a></td>
+                                    <td>1.1.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.insteon.com/">Insteon</a></td>
+                                    <td>Powerline</td>
+                                    <td>lighting, shades, security</td>
+                                    <td>Release</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Insteon-Hub-Binding">insteonhub</a></td>
+                                    <td>1.4.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.knx.org/">KNX</a></td>
+                                    <td>Wired</td>
+                                    <td>lighting, heating, shades, security, metering, ventilation, climate</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/KNX-Binding">knx</a></td>
+                                    <td>0.1.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.koubachi.com/">Koubachi</a></td>
+                                    <td>Wireless</td>
+                                    <td>plants</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Koubachi-Binding">koubachi</a></td>
+                                    <td>1.2.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.eq-3.de/max-heizungssteuerung-produktdetail/items/bc-lgw-o-tw.html">MAX!Cube</a></td>
+                                    <td>Wireless</td>
+                                    <td>lighting, heating, shades, security, metering, ventilation, climate</td>
+                                    <td>Release</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/MAX%21Cube-Binding">maxcube</a></td>
+                                    <td>1.4.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.milight.com/">Milight</a></td>
+                                    <td>Wireless</td>
+                                    <td>lighting</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Milight-Binding">milight</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.modbus.org/">Modbus</a></td>
+                                    <td>Wired</td>
+                                    <td>lighting, heating, metering, ventilation, climate, industrial</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Modbus-Tcp-Binding">modbus</a></td>
+                                    <td>1.1.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.musicpd.org/">Mpd</a></td>
+                                    <td>Protocol</td>
+                                    <td>audio, music</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Mpd-Binding">mpd</a></td>
+                                    <td>0.8.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://mqtt.org/">MQTT</a></td>
+                                    <td>Protocol</td>
+                                    <td>message, bus</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/MQTT-Binding">mqtt</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Network Health</td>
+                                    <td>Protocol</td>
+                                    <td>network, ping</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Network-Health-Binding">nh</a></td>
+                                    <td>0.6.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.nibe.eu/">Nibe Heat Pump</a></td>
+                                    <td>Device</td>
+                                    <td>heating, heatpump</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Nibe-Heat-Pump-Binding">nibeheatpump</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.niko.eu/enus/niko/products/home-automation-with-nikobus/">Nikobus<a/></td>
+                                    <td>Wired</td>
+                                    <td>lighting, shades, security</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Nikobus-Binding">nikobus</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.novelan.com/">Novelan/Luxtronic</a></td>
+                                    <td>Device</td>
+                                    <td>heating, heatpump</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Novelan-Heat-Pump-Binding">novelanheatpump</a></td>
+                                    <td>1.0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>NTP</td>
+                                    <td>Protocol</td>
+                                    <td>date, time</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Ntp-Binding">ntp</a></td>
+                                    <td>0.8.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://en.wikipedia.org/wiki/1-Wire">One Wire</a></td>
+                                    <td>Wired</td>
+                                    <td>lighting, heating, climate</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/One-Wire-Binding">onewire</a></td>
+                                    <td>0.6.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.uk.onkyo.com/en/a-v-receiver-306.html">Onkyo AV Receiver</a></td>
+                                    <td>Device</td>
+                                    <td>audio, video</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Onkyo-Binding">onkyo</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://rayshobby.net/?page_id=160">Open Sprinkler</a></td>
+                                    <td>Device</td>
+                                    <td>plants</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Open-Sprinkler">openSprinkler</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.meethue.com/">Philips Hue</a></td>
+                                    <td>Wireless</td>
+                                    <td>lighting</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Hue-Binding">hue</a></td>
+                                    <td>1.2.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.piface.org.uk/">Piface</a></td>
+                                    <td>Device</td>
+                                    <td></td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Piface-Binding">piface</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.pioneer.eu/uk/products/42/98/405/overview.html">Pioneer AV Receiver</a></td>
+                                    <td>Device</td>
+                                    <td>audio, video</td>
+                                    <td>Release</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Pioneer-AVR-Binding">pioneeravr</a></td>
+                                    <td>1.4.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.plugwise.com/">Plugwise</a></td>
+                                    <td>Wireless</td>
+                                    <td>lighting, metering</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Plugwise-Binding">plugwise</a></td>
+                                    <td>1.1.0</td>
+                                </tr>
+                                <tr>
+                                    <td>PLC Bus</td>
+                                    <td>Powerline</td>
+                                    <td></td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/PLC-Bus-Binding">plcbus</a></td>
+                                    <td>1.1.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.pulseaudio.org/">Pulseaudio Server</td>
+                                    <td>Device</td>
+                                    <td>audio, music</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Pulseaudio-Binding">pulseaudio</a></td>
+                                    <td>1.2.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.rfxcom.com/">RFXCOM</a></td>
+                                    <td>Wireless</td>
+                                    <td>lighting, heating, security</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/RFXCOM-Binding">rfxcom</a></td>
+                                    <td>1.2.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.samsung.com/">Samsung TV</a></td>
+                                    <td>Device</td>
+                                    <td>tv, video</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Samsung-TV-Binding">samsungtv</a></td>
+                                    <td>1.2.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.sen.se/">Sen.se</a></td>
+                                    <td>Cloud</td>
+                                    <td>data, graphs</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Sense-Persistence">sense</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Serial</td>
+                                    <td>Protocol</td>
+                                    <td>serial</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Serial-Binding">serial</a></td>
+                                    <td>0.6.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://en.wikipedia.org/wiki/Simple_Network_Management_Protocol">SNMP</a></td>
+                                    <td>Protocol</td>
+                                    <td>network</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Snmp-Binding">snmp</a></td>
+                                    <td>0.9.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.logitech.com/en-us/support/speakers-audio">Squeezebox</a></td>
+                                    <td>Device</td>
+                                    <td>audio, music</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Squeezebox-Binding">squeeze</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td>System Info</td>
+                                    <td>Device</td>
+                                    <td>system, network</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Systeminfo-Binding">systeminfo</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.somfy.com">Somfy URTSI</a></td>
+                                    <td>Device</td>
+                                    <td>shades</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/URTSI-Binding">urtsi</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.sonos.com/">Sonos</a></td>
+                                    <td>Device</td>
+                                    <td>audio, music</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Sonos-Binding">sonos</a></td>
+                                    <td>1.1.0</td>
+                                </tr>
+                                <tr>
+                                    <td>TCP/UDP</td>
+                                    <td>Protocol</td>
+                                    <td>network</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/TCP-Binding">tcp</a></td>
+                                    <td>1.1.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.tinkerforge.com/">Tinkerforge</a></td>
+                                    <td>Device</td>
+                                    <td>io, diy</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Tinkerforge-Binding">tinkerforge</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.twitter.com/">Twitter</a></td>
+                                    <td>Cloud</td>
+                                    <td>social</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Twitter-Action">twitter</a></td>
+                                    <td>1.2.0</td>
+                                </tr>
+                                <tr>
+                                    <td>VDR</td>
+                                    <td>Device</td>
+                                    <td>video, tv</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/VDR-Binding">vdr</a></td>
+                                    <td>0.9.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Wake on LAN</td>
+                                    <td>Protocol</td>
+                                    <td>network</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Wake-on-LAN-Binding-%28WoL%29">wol</a></td>
+                                    <td>0.6.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://xively.com/">Xively</a></td>
+                                    <td>Cloud</td>
+                                    <td>data, graphs</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Cosm-Persistence">cosm</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://www.z-wave.com/">Z-Wave</a></td>
+                                    <td>Wireless</td>
+                                    <td>lighting, heating, shades, security, metering, locks</td>
+                                    <td>Production</td>
+                                    <td><a href="https://github.com/openhab/openhab/wiki/Z-Wave-Binding">zwave</a></td>
+                                    <td>1.3.0</td>
+                                </tr>
+                                </tbody>
+                                </table>
+
+                                <!-- <div class="imgWrapper"> <img src="https://raw.github.com/wiki/openhab/openhab/images/features.png" alt="project title"> </div> -->
+                        </section>
+                    </div>
+    </section>
+    <!-- page content -->
+  <!-- footer -->
+  <footer class="footer1">
+      <div class="container" id="footer">
+          <div class="row">
+              <div class="span6 timelineWidget">
+                  <h2>Latest tweets</h2>
+                  <div class="divider"><span></span></div>
+                  <div id="twitterFrame"> <a class="twitter-timeline" href="https://twitter.com/openHAB?height=250" data-widget-id="416300026369810432"  data-tweet-limit="2" data-theme="dark" data-chrome="nofooter noheader transparent" >Tweets by @openHAB</a>
+                      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                  </div>
+              </div>
+              <div class="span3 contactWidget">
+                  <h2>Contact us</h2>
+                  <div class="divider"><span></span></div>
+                  <address>
+                      <p><strong>openHAB UG (haftungsbeschränkt)</strong></p>
+                      <p> <i class="icon-twitter"></i>&nbsp;<a href="http://twitter.com/openHAB">@openHAB</a></p>
+                      <p> <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:info@openhab.org">info@openhab.org</a></p>
+                  </address>
+              </div>
+              <div class="span3 sociallWidget">
+                  <h2>Follow us</h2>
+                  <div class="divider"><span></span></div>
+                  <ul class="socialNetwork nav">
+                      <li><a href="https://www.facebook.com/pages/OpenHAB/153141161476518" class="icon-facebook socialIcon tips"  title="follow us on Facebook"><span>facebook</span></a></li>
+                      <li><a href="http://twitter.com/openHAB" class="icon-twitter-bird socialIcon tips"  title="follow us on Twitter"><span>twitter</span></a></li>
+                      <li><a href="https://plus.google.com/u/0/b/112853105449135193256/112853105449135193256/posts" class="icon-gplus socialIcon tips"  title="follow us on Google +"><span>google +</span></a></li>
+                      <li><a href="http://www.youtube.com/playlist?list=PLGlxCdrGUagz6lfgo9SlNLhdwI4la_VSv" class="icon-videocam socialIcon tips" title="follow us on Youtube"><span>youtube</span></a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <footer class="footer2" id="footerRights">
+      <div class="container">
+          <div class="row">
+              <div class="span12">
+                  <p>Copyright © 2014 openHAB UG (haftungsbeschränkt) / All rights reserved | <a class="inversedlink" href="imprint.html"> &rarr; Imprint / Terms of use</a></p>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- footer -->
+</div>
+<!-- Global wrapper -->
+<!-- End Document
+    ================================================== -->
+<script type="text/javascript" src="js-plugin/respond/respond.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+<!-- third party plugins  -->
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap-carousel.js"></script>
+<script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js-plugin/pretty-photo/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js-plugin/hoverdir/jquery.hoverdir.js"></script>
+<!-- jQuery KenBurn Slider  -->
+<script type="text/javascript" src="js-plugin/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="js-plugin/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Custom  -->
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', UA]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-47717934-1', 'openhab.org');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>
