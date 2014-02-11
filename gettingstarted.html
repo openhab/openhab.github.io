@@ -144,7 +144,7 @@
                               you've installed openHAB e.g. <code>C:\openhab</code> or <code>/opt/openhab</code>.</li>
                           <li>Launch the runtime by executing the script <code>start.bat</code> or <code>start.sh</code>
                           </li>
-                          <li>Point your browser to <code>http://&lt;openHAB address/hostname&gt;:8080/openhab.app?sitemap=demo</code></li>
+                          <li>Point your browser to <code>http://&lt;openHAB address or hostname&gt;:8080/openhab.app?sitemap=demo</code></li>
                       </ol>
                       <p></p>
                       <h2>Installing the openHAB designer (optional)</h2>
@@ -202,8 +202,7 @@
                               <code>Switch Light_Room_Table  "Table Light" (Room, Lights) { knx = "&lt;0/1/10+0/1/30"}</code>: This is a switch item that has two addresses. openHAB may respond to events in any of them, but may actively read the first one.</li>
                       </ul><p>For more info about other options have a look at the demo.items file.</p>
 
-                      <h3>
-                          <a name="wiki-the-yournamesitemap" class="anchor" href="#wiki-the-yournamesitemap"><span class="octicon octicon-link"></span></a>The yourname.sitemap</h3>
+                      <h3>The yourname.sitemap</h3>
 
                       <p>In this file we tell openHAB how we want the items to be shown in the user interface. First, create a new thenameyouwish.sitemap file in the "configurations/sitemap" directory. We might define here:</p>
 
@@ -249,7 +248,7 @@
                       <div class="divider"><span></span></div>
 
                       <p>openHAB comes with a built-in user interface. It works on all webkit-based browsers like Chrome,
-                          Safari, etc. Point your browser to <code>http://&lt;openHAB address/hostname&gt;:8080/openhab.app?sitemap=demo</code>
+                          Safari, etc. Point your browser to <code>http://&lt;openHAB address or hostname&gt;:8080/openhab.app?sitemap=demo</code>
                           and you should be looking at your sitemap.</p>
                   </section>
               </div>
