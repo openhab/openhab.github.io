@@ -119,9 +119,7 @@
                               content-assist and more on your configuration files.</li>
                       </ol>
                       <p>All openHAB files are available in the <a href="downloads.html">Downloads</a> section.</p>
-                      <h2>
-
-                      <a name="wiki-installing-the-openhab-runtime" class="anchor" href="#wiki-installing-the-openhab-runtime"><span class="octicon octicon-link"></span></a>Installing the openHAB runtime</h2>
+                      <h2>Installing the openHAB runtime</h2>
                       <div class="divider"><span></span></div>
 
                       <p>The openHAB runtime comes as a platform-independent zip file.
@@ -132,26 +130,45 @@
                           <li>Next, add the bindings you need from addons package. Unzip the previously downloaded <code>distribution-&lt;version&gt;-addons.zip</code> into a separate directory and then
                               copy bundles which you need (every bundle resides in a separate <code>.jar</code> file) to the "addons" directory of openHAB.</li>
                           <li>Create a personal configuration file by copying the file <code>configurations/openhab_default.cfg</code> to <code>configurations/openhab.cfg</code>.</li>
-                      </ol><h2>
-                      <a name="wiki-optional-installing-the-openhab-designer" class="anchor" href="#wiki-optional-installing-the-openhab-designer"><span class="octicon octicon-link"></span></a>Installing the openHAB designer (optional)</h2>
+                      </ol>
+                      <p></p>
+                      <h2>Installing the openHAB demo (optional)</h2>
+                      <div class="divider"><span></span></div>
+
+                      <p>The openHAB comes with a demo package which have all the configuration to play with a model of
+                          a house with some rooms, lights, heating and all the stuff. It also includes some demo rules
+                          to explore the possibilities of openHAB. To install it, follow these simple steps:</p>
+
+                      <ol>
+                          <li>Unzip the <code>distribution-&lt;version&gt;-demo-configuration.zip</code> to same directory,
+                              you've installed openHAB e.g. <code>C:\openhab</code> or <code>/opt/openhab</code>.</li>
+                          <li>Launch the runtime by executing the script <code>start.bat</code> or <code>start.sh</code>
+                          </li>
+                          <li>Point your browser to <code>http://&lt;openHAB address/hostname&gt;:8080/openhab.app?sitemap=demo</code></li>
+                      </ol>
+                      <p></p>
+                      <h2>Installing the openHAB designer (optional)</h2>
                       <div class="divider"><span></span></div>
 
                       <p>The openHAB designer comes as a platform-<em>dependent</em> zip, so choose the right one for your platform.
                           To install it, follow these simple steps:</p>
 
                       <ol>
-                          <li>Unzip the <code>distribution-&lt;version&gt;-designer-&lt;platform&gt;.zip</code> to some directory, e.g. <code>C:\openhab-designer</code> resp. <code>/opt/openhab-designer</code>
+                          <li>Unzip the <code>distribution-&lt;version&gt;-designer-&lt;platform&gt;.zip</code> to some
+                              directory, e.g. <code>C:\openhab-designer</code> resp. <code>/opt/openhab-designer</code>
                           </li>
-                          <li>Launch it by the executable <code>openHAB-Designer.exe</code> (resp. <code>openHAB-Designer</code> if you are on a Mac or Linux)</li>
-                          <li>Select the "configurations" folder of your runtime installation in the folder dialog that is shown when selecting the "open folder" toolbar icon.</li>
-                      </ol><h2>
-                      <a name="wiki-configuring-the-server" class="anchor" href="#wiki-configuring-the-server"><span class="octicon octicon-link"></span></a>Configuring the server</h2>
+                          <li>Launch it by the executable <code>openHAB-Designer.exe</code> (resp. <code>openHAB-Designer</code>
+                              if you are on a Mac or Linux)</li>
+                          <li>Select the "configurations" folder of your runtime installation in the folder dialog that
+                              is shown when selecting the "open folder" toolbar icon.</li>
+                      </ol>
+                      <p></p>
+                      <h2>Configuring the server</h2>
                       <div class="divider"><span></span></div>
 
                       <p>The configuration files are text files that may be edited with any text editor you wish. Nevertheless, you may use the openHAB designer to edit them, and you will get info about any syntax error. Note that the expected file encoding is UTF-8.</p>
 
-                      <h3>
-                          <a name="wiki-the-openhabcfg-file" class="anchor" href="#wiki-the-openhabcfg-file"><span class="octicon octicon-link"></span></a>The openhab.cfg file</h3>
+                      <h3>The openhab.cfg file</h3>
 
                       <ul>
                           <li><code>openhab.cfg</code> is the main configuration file of openHAB. It specifies generic system settings as well as specific
@@ -162,8 +179,8 @@
                               All bundle specific configuration parameters are available on bundles documentation pages
                               in the <a href="https://github.com/openhab/openhab/wiki">openHAB Wiki</a>
                           </li>
-                      </ul><h3>
-                      <a name="wiki-the-yournameitems-file" class="anchor" href="#wiki-the-yournameitems-file"><span class="octicon octicon-link"></span></a>The yourname.items file</h3>
+                      </ul>
+                      <h3>The yourname.items file</h3>
 
                       <p>The next thing we must do is to tell openHAB which items we have. To do so, go to the "configurations/items" directory and create a new file called thenameyouwish.items. You have a demo.items sample file to see which is the syntax of this file.</p>
 
@@ -221,18 +238,19 @@
 
                       <p>NOTE: Items and sitemap may be changed in runtime as needed.</p>
 
-                      <h2>
-                          <a name="wiki-start-the-server" class="anchor" href="#wiki-start-the-server"><span class="octicon octicon-link"></span></a>Start the server!</h2>
+                      <h2>Start the server!</h2>
                       <div class="divider"><span></span></div>
 
                       <ol>
                           <li>Launch the runtime by executing the script <code>start.bat</code> or <code>start.sh</code>
                           </li>
                       </ol><h2>
-                      <a name="wiki-go-test-it" class="anchor" href="#wiki-go-test-it"><span class="octicon octicon-link"></span></a>Go test it!</h2>
+                      Go test it!</h2>
                       <div class="divider"><span></span></div>
 
-                      <p>openHAB comes with a built-in user interface. It works on all webkit-based browsers like Chrome, Safari, etc. Point your browser to <code>http://localhost:8080/openhab.app?sitemap=demo</code> and you should be looking at your sitemap.</p>
+                      <p>openHAB comes with a built-in user interface. It works on all webkit-based browsers like Chrome,
+                          Safari, etc. Point your browser to <code>http://&lt;openHAB address/hostname&gt;:8080/openhab.app?sitemap=demo</code>
+                          and you should be looking at your sitemap.</p>
                   </section>
               </div>
           </div>
