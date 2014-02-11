@@ -112,12 +112,14 @@
                       <div class="divider"><span></span></div>
                       <ol>
                           <li>You will need to install Java if not already installed. Go to <a href="http://java.com/">http://java.com/</a> to get it.</li>
-                          <li>
-                              <code>openhab-runtime-&lt;version&gt;.zip</code>. This is the server.</li>
-                          <li>Any bindings you may need. For this fast setup, we need  <code>knx-binding-&lt;version&gt;.jar</code> and <code>http-binding-&lt;version&gt;.jar</code>
-                          </li>
-                          <li>OPTIONAL: You may want to download a tool to configure the items, sitemap and so on. If so, download <code>openhab-designer-&lt;your platform&gt;-&lt;version&gt;.zip</code>. This will give you syntax validation, content-assist and more on your configuration files.</li>
-                      </ol><h2>
+                          <li>openHAB runtime, this is the server.</li>
+                          <li>Any additional bindings you may need to support your devices and technologies from addons package</li>
+                          <li>OPTIONAL: You may want to download a tool to configure the items, sitemap and so on. If so,
+                              download openHAB Designer for your specific platform. This will give you syntax validation,
+                              content-assist and more on your configuration files.</li>
+                      </ol>
+                      <p>All openHAB files are available in the <a href="downloads.html">Downloads</a> section.</p>
+                      <h2>
 
                       <a name="wiki-installing-the-openhab-runtime" class="anchor" href="#wiki-installing-the-openhab-runtime"><span class="octicon octicon-link"></span></a>Installing the openHAB runtime</h2>
                       <div class="divider"><span></span></div>
@@ -126,8 +128,9 @@
                           To install it, follow these simple steps:</p>
 
                       <ol>
-                          <li>Unzip the <code>openhab-runtime-&lt;version&gt;.zip</code> to where it is intended to be running from, e.g. <code>C:\openhab</code> or <code>/opt/openhab</code>.</li>
-                          <li>Copy the bindings you have downloaded -<code>knx-binding-&lt;version&gt;.jar</code> and <code>http-binding-&lt;version&gt;.jar</code>- to the "addons" directory.</li>
+                          <li>Unzip the <code>distribution-&lt;version&gt;-runtime.zip</code> to where it is intended to be running from, e.g. <code>C:\openhab</code> or <code>/opt/openhab</code>.</li>
+                          <li>Next, add the bindings you need from addons package. Unzip the previously downloaded <code>distribution-&lt;version&gt;-addons.zip</code> into a separate directory and then
+                              copy bundles which you need (every bundle resides in a separate <code>.jar</code> file) to the "addons" directory of openHAB.</li>
                           <li>Create a personal configuration file by copying the file <code>configurations/openhab_default.cfg</code> to <code>configurations/openhab.cfg</code>.</li>
                       </ol><h2>
                       <a name="wiki-optional-installing-the-openhab-designer" class="anchor" href="#wiki-optional-installing-the-openhab-designer"><span class="octicon octicon-link"></span></a>Installing the openHAB designer (optional)</h2>
@@ -137,7 +140,7 @@
                           To install it, follow these simple steps:</p>
 
                       <ol>
-                          <li>Unzip the <code>openhab-designer-&lt;platform&gt;-&lt;version&gt;.zip</code> to some directory, e.g. <code>C:\openhab-designer</code> resp. <code>/opt/openhab-designer</code>
+                          <li>Unzip the <code>distribution-&lt;version&gt;-designer-&lt;platform&gt;.zip</code> to some directory, e.g. <code>C:\openhab-designer</code> resp. <code>/opt/openhab-designer</code>
                           </li>
                           <li>Launch it by the executable <code>openHAB-Designer.exe</code> (resp. <code>openHAB-Designer</code> if you are on a Mac or Linux)</li>
                           <li>Select the "configurations" folder of your runtime installation in the folder dialog that is shown when selecting the "open folder" toolbar icon.</li>
@@ -151,7 +154,13 @@
                           <a name="wiki-the-openhabcfg-file" class="anchor" href="#wiki-the-openhabcfg-file"><span class="octicon octicon-link"></span></a>The openhab.cfg file</h3>
 
                       <ul>
-                          <li>The easiest way of configuring a KNX binding is by connecting in ROUTER mode. To do so, enable this: <code>knx:type=ROUTER</code> . If you cannot use the ROUTER mode, set it to TUNNEL, but you must then configure the IP: <code>knx:ip=&lt;IP of the KNX-IP module&gt;</code>
+                          <li><code>openhab.cfg</code> is the main configuration file of openHAB. It specifies generic system settings as well as specific
+                              parameters for different bundles. Those options are specified in the following format:
+                              <code>&lt;bundle name&gt;:&lt;parameter name&gt;=&lt;parameter value&gt;</code>
+                          </li>
+                          <li>
+                              All bundle specific configuration parameters are available on bundles documentation pages
+                              in the <a href="https://github.com/openhab/openhab/wiki">openHAB Wiki</a>
                           </li>
                       </ul><h3>
                       <a name="wiki-the-yournameitems-file" class="anchor" href="#wiki-the-yournameitems-file"><span class="octicon octicon-link"></span></a>The yourname.items file</h3>
