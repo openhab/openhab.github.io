@@ -577,20 +577,21 @@ if($('#shareme').length){
     |--------------------------------------------------------------------------
     */
     if ($("table.tablesorter").length) {
-        $("table.tablesorter").tablesorter({
-             sortList: [[5,0]] //initial sort by column "since"
-        });
+        $("table.tablesorter").tablesorter();
         $('head').append(" \
         <style> \
-            table.tablesorter thead tr .header { \
+            table.tablesorter thead tr th:last-child { \
+                min-width: 45px; \
+            } \
+            table.tablesorter thead tr th { \
                 background-repeat: no-repeat; \
-                background-position: bottom center; \
+                background-position: 100% 73%; \
                 cursor: pointer; \
             } \
-            table.tablesorter thead tr .headerSortUp { \
+        	table.tablesorter thead tr th.headerSortUp { \
                 background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7); \
             } \
-            table.tablesorter thead tr .headerSortDown { \
+            table.tablesorter thead tr th.headerSortDown { \
                 background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7); \
             } \
         </style>");
