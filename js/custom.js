@@ -577,9 +577,7 @@ if($('#shareme').length){
     |--------------------------------------------------------------------------
     */
     if ($("table.tablesorter").length) {
-        $("table.tablesorter").tablesorter({
-             sortList: [[5,0]] //initial sort by column "since"
-        });
+        $("table.tablesorter").tablesorter();
         $('head').append(" \
         <style> \
             table.tablesorter thead tr .header { \
