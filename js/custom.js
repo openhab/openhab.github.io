@@ -571,6 +571,33 @@ if($('#shareme').length){
 
 
 
+    /*
+    |--------------------------------------------------------------------------
+    | TABLESORT
+    |--------------------------------------------------------------------------
+    */
+    if ($("table.tablesorter").length) {
+        $("table.tablesorter").tablesorter({
+             sortList: [[5,0]] //initial sort by column "since"
+        });
+        $('head').append(" \
+        <style> \
+            table.tablesorter thead tr .header { \
+                background-repeat: no-repeat; \
+                background-position: bottom center; \
+                cursor: pointer; \
+            } \
+            table.tablesorter thead tr .headerSortUp { \
+                background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7); \
+            } \
+            table.tablesorter thead tr .headerSortDown { \
+                background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7); \
+            } \
+        </style>");
+    }
+
+
+
 //END DOCUMENT READY   
 });
 
