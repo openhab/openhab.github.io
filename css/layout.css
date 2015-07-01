@@ -71,6 +71,7 @@ p, ul {
     margin-top: 0em;
     margin-bottom: 1.5em;
 }
+
 strong {
     font-weight:bold
 }
@@ -140,6 +141,10 @@ body {
     -webkit-text-size-adjust: 100%;
     padding-top:66px;
     position:relative;
+}
+
+.marketing {
+    font-size: 1.3em;
 }
 
 .awards{
