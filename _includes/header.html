@@ -1,0 +1,19 @@
+<header id="mainHeader" class="clearfix">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container"> <a href="{{ site.baseurl }}/" class="brand"><img src="/assets/images/openhab-logo-top.png" alt="openHAB"/></a>
+        <nav id="mainMenu" class="clearfix">{% assign pageurl = page.url | remove:'index.html' | split:'/' %}
+          <ul>
+            <li><a href="{{ site.baseurl }}/"{% if pageurl[1] == nil %} class="active"{% endif %}>Home</a></li>
+            <li><a href="{{ site.baseurl }}/features/"{% if  pageurl[1] == 'features' %} class="active"{% endif %}>Features</a></li>
+            <li><a href="{{ site.baseurl }}/getting-started/downloads.html"{% if pageurl[1] == 'getting-started' %} class="active"{% endif %}>Downloads</a></li>
+            <li><a href="{{ site.baseurl }}/community.html"{% if pageurl[1] == 'community.html' %} class="active"{% endif %}>Community</a></li>
+            <li><a href="https://github.com/openhab/openhab">Github</a></li>
+            <li><a href="https://github.com/openhab/openhab/wiki">Wiki</a></li>
+            <li><a href="https://my.openhab.org/">my.openHAB</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,78 @@
+---
+layout: page
+title: IFTTT Integration
+---
+## Announcing the IFTTT Integration for openHAB
+
+<div class="divider"><span></span></div>
+
+<div class="imgWrapper"><img src='/assets/images/ifttt-meets-openhab.jpg' alt='IFTTT meets openHAB'/></div>
+
+We are thrilled to announce that openHAB users can now take advantage of IFTTT to realize even more use cases in their smart home!
+
+## What is IFTTT?
+
+<div class="divider"><span></span></div>
+
+[If This Then That (IFTTT)](https://ifttt.com) is a very popular web-based service that allows users to create "recipes", which can combine different web services into powerful automation rules.
+
+## Why use openHAB with IFTTT?
+
+<div class="divider"><span></span></div>
+
+openHAB already integrates with [far more than 100 different smart home technologies](features-tech.html). While there are some web services like Twitter available, this is not the primary integration focus of openHAB. Therefore IFTTT perfectly complements the features of openHAB: With its [hundreds of channels](https://ifttt.com/channels), there are limitless new creative options: Be notified through text-to-speech if you are receive a DM on twitter, be warned through your lights if your favorite stock price falls below a certain threshold or put your house in away-mode when you turn on the ignition of your car - you can get further inspiration by browsing through existing recipes.
+
+<div class="row da-thumbs">
+  <article class="span4 bloc">
+    <a href="https://ifttt.com/recipes/300800-update-my-presence-if-nest-says-i-m-back-home">
+    <section class="imgWrapper">
+      <img alt="" src="/assets/images/ifttt1.png" style="-webkit-transform: scale(1);">
+    </section>
+
+    <div class="da-animate da-slideFromTop" style="display: block;">
+      <span class="iconWrapper iconLink icon-search" style="font-style: italic; margin-top: 63px"></span>
+    </div></a>
+
+    <h3>Update my presence if Nest says I'm back home.</h3>
+  </article>
+
+  <article class="span4 bloc">
+    <a href="https://ifttt.com/recipes/297847-open-garage-when-i-turn-on-ignition">
+    <section class="imgWrapper">
+      <img alt="" src="/assets/images/ifttt2.png" style="-webkit-transform: scale(1);">
+    </section>
+
+    <div class="da-animate da-slideFromLeft" style="display: block;">
+      <span class="iconWrapper iconLink icon-search" style="font-style: italic; margin-top: 63px"></span>
+    </div></a>
+
+    <h3>Open my garage when I turn on the ignition</h3>
+  </article>
+
+  <article class="span4 bloc">
+    <a href="https://ifttt.com/recipes/299083-announce-finished-tasks-using-tts">
+    <section class="imgWrapper">
+      <img alt="" src="/assets/images/ifttt3.png" style="-webkit-transform: scale(1);">
+    </section>
+
+    <div class="da-animate da-slideFromRight" style="display: block;">
+      <span class="iconWrapper iconLink icon-search" style="font-style: italic; margin-top: 63px"></span>
+    </div></a>
+
+    <h3>Announce finished tasks through text-to-speech</h3>
+  </article>
+</div>
+
+Besides the new kinds of integration possibilities, IFTTT is also a perfect start for new openHAB users as it makes the creation of rules dead simple - no need to do any scripting, no complex setup routines, it all works through a few mouse clicks!
+
+<div class="imgWrapper"><img src='/assets/images/ifttt-do.jpg' alt='IFTTT Do Button'/></div>
+
+We have also integrated with IFTTT’s [Do Button](https://ifttt.com/products/do/button). The Do button allows you to access often required functionality very quickly - either through the Do app, as a widget or even as a floating button, that is always present on your screen.
+
+## Let's Go!
+
+<div class="divider"><span></span></div>
+
+IFTTT is available to all our users through the [my.openHAB service](https://my.openhab.org/). Once you have your my.openHAB account set up, all you have to do is to decide, which items you want to share with IFTTT and to activate the openHAB channel - see the [my.openHAB documentation](https://my.openhab.org/docs/ifttt) for details.
+
+Are you on Twitter? Then show us your favorite recipes by using the hashtag #openHABrecipe!
