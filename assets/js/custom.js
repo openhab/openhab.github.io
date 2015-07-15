@@ -1,29 +1,5 @@
 
 
-/*************** COLORS TO BE ERASED WHEN INSTALLING THE THEME ***********/
-
-$(document).ready(function() {   
-
-    var s = document.createElement("script");
-    s.type = "text/javascript";
-    s.src = "js-plugin/jquery-cookie/jquery.cookie.js";
-    $("body").append(s);  
-
-    if($.cookie("css")) {
-        $("#colors").attr("href",$.cookie("css"));
-    }
-    $(".switcher li a").click(function() { 
-
-        $("#colors").attr("href",$(this).attr("href"));
-        $.cookie("css",$(this).attr("href"));
-        return false;
-    });
-
-});
-
-/*************** COLORS TO BE ERASED WHEN INSTALLING THE THEME ***********/
-
-
 /*************** REPLACE WITH YOUR OWN UA NUMBER ***********/
 var UA = 'XXX';
 /*************** REPLACE WITH YOUR OWN UA NUMBER ***********/
@@ -64,33 +40,6 @@ $(document).ready(function() {
     }									
 
 
-
-
-
-
-    /*
-    |--------------------------------------------------------------------------
-    | BOOTSTRAP ELEMENTS 
-    |--------------------------------------------------------------------------
-    */ 
-
-
-   
-
-
-    /*
-    |--------------------------------------------------------------------------
-    | PRETTY PHOTOS
-    |--------------------------------------------------------------------------
-    */      
-    if( $("a.prettyPhoto").length){
-        $("a.prettyPhoto").prettyPhoto({
-            animation_speed:'fast',
-            slideshow:10000, 
-            hideflash: true,
-            social_tools:false
-        });
-    }
 
     /*
     |--------------------------------------------------------------------------
@@ -526,13 +475,14 @@ if($('#shareme').length){
             } \
             table.tablesorter thead tr th { \
                 background-repeat: no-repeat; \
-                background-position: 100% 73%; \
+                background-position: 100% 50%; \
                 cursor: pointer; \
+                padding-right: 20px; \
             } \
-        	table.tablesorter thead tr th.headerSortUp { \
+        	table.tablesorter thead tr th.tablesorter-headerAsc { \
                 background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7); \
             } \
-            table.tablesorter thead tr th.headerSortDown { \
+            table.tablesorter thead tr th.tablesorter-headerDesc { \
                 background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7); \
             } \
         </style>");
