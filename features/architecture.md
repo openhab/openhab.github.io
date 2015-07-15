@@ -10,7 +10,7 @@ redirect_from:
 
 If you are completely new to openHAB and you prefer listening over reading, you can start with our presentation at Devoxx in 2012, which is available on Parleys:
 
-<div class='imgWrapper'><a href='http://parleys.com/play/5148922b0364bc17fc56c8c3/chapter10/agenda'><img alt='' src='https://raw.github.com/wiki/openhab/openhab/images/parleys.jpg'></a></div>
+<div class='img-wrapper'><a href='http://parleys.com/play/5148922b0364bc17fc56c8c3/chapter10/agenda'><img alt='' src='https://raw.github.com/wiki/openhab/openhab/images/parleys.jpg'></a></div>
 
 The openHAB project is split into two parts: openhab runtime , which you will actually run on your server and which does the 'real' work and openhab designer which is more or less a configuration tool for the openhab runtime. It comes with user-friendly editors to configure your runtime, to define your UIs and to implement your rules.
 
@@ -20,7 +20,7 @@ The openHAB project is split into two parts: openhab runtime , which you will ac
 
 The openHAB runtime is a set of OSGi bundles deployed on an OSGi framework (Equinox). It is therefore a pure Java solution and needs a JVM to run. Being based on OSGi, it provides a highly modular architecture, which even allows adding and removing functionality during runtime without stopping the service. Here is an overview over the main bundles and how they depend on each other:
 
-<div class='imgWrapper'><img alt='' src='https://github.com/openhab/openhab/wiki/images/architecture.png'></div>
+<div class='img-wrapper'><img alt='' src='https://github.com/openhab/openhab/wiki/images/architecture.png'></div>
 
 ### Communication
 
@@ -42,7 +42,7 @@ Not all functionality can be covered purely by stateless services. Out of this r
 
 The following diagram shows how these communication channels are used:
 
-<div class='imgWrapper'><img alt='' src='/assets/images/architecture/events.png'></div>
+<div class='img-wrapper'><img alt='' src='/assets/images/architecture/events.png'></div>
 
 ### Sitemap
 

@@ -6,7 +6,7 @@ title: IFTTT Integration
 
 ---
 
-<div class="imgWrapper"><img src='/assets/images/ifttt-meets-openhab.jpg' alt='IFTTT meets openHAB'/></div>
+<div class="img-wrapper"><img src='/assets/images/ifttt-meets-openhab.jpg' alt='IFTTT meets openHAB'/></div>
 
 We are thrilled to announce that openHAB users can now take advantage of IFTTT to realize even more use cases in their smart home!
 
@@ -25,7 +25,7 @@ openHAB already integrates with [far more than 100 different smart home technolo
 <div class="row da-thumbs">
   <article class="span4 bloc">
     <a href="https://ifttt.com/recipes/300800-update-my-presence-if-nest-says-i-m-back-home">
-    <section class="imgWrapper">
+    <section class="img-wrapper">
       <img alt="" src="/assets/images/ifttt1.png" style="-webkit-transform: scale(1);">
     </section>
 
@@ -38,7 +38,7 @@ openHAB already integrates with [far more than 100 different smart home technolo
 
   <article class="span4 bloc">
     <a href="https://ifttt.com/recipes/297847-open-garage-when-i-turn-on-ignition">
-    <section class="imgWrapper">
+    <section class="img-wrapper">
       <img alt="" src="/assets/images/ifttt2.png" style="-webkit-transform: scale(1);">
     </section>
 
@@ -51,7 +51,7 @@ openHAB already integrates with [far more than 100 different smart home technolo
 
   <article class="span4 bloc">
     <a href="https://ifttt.com/recipes/299083-announce-finished-tasks-using-tts">
-    <section class="imgWrapper">
+    <section class="img-wrapper">
       <img alt="" src="/assets/images/ifttt3.png" style="-webkit-transform: scale(1);">
     </section>
 
@@ -65,7 +65,7 @@ openHAB already integrates with [far more than 100 different smart home technolo
 
 Besides the new kinds of integration possibilities, IFTTT is also a perfect start for new openHAB users as it makes the creation of rules dead simple - no need to do any scripting, no complex setup routines, it all works through a few mouse clicks!
 
-<div class="imgWrapper"><img src='/assets/images/ifttt-do.jpg' alt='IFTTT Do Button'/></div>
+<div class="img-wrapper"><img src='/assets/images/ifttt-do.jpg' alt='IFTTT Do Button'/></div>
 
 We have also integrated with IFTTT’s [Do Button](https://ifttt.com/products/do/button). The Do button allows you to access often required functionality very quickly - either through the Do app, as a widget or even as a floating button, that is always present on your screen.
 

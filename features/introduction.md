@@ -11,7 +11,7 @@ redirect_from:
 
 More and more new cool devices and technologies arrive at our homes every day. But though they are all aimed at enhancing our lifestyle they all lack one important feature: a common language they could speak to each other to create a really automated and smart environment at home. The main goal of openHAB is to provide an integration platform to fix this issue.
 
-<div class="imgWrapper"><img alt="project title" src="https://raw.github.com/wiki/openhab/openhab/images/features.png"></div>
+<div class="img-wrapper"><img alt="project title" src="https://raw.github.com/wiki/openhab/openhab/images/features.png"></div>
 
 ## What is openHAB?
 

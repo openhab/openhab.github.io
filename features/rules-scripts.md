@@ -10,7 +10,7 @@ redirect_from:
 
 openHAB has a highly integrated, lightweight but yet powerful rule engine included. Rules are written in a java-like language. Rules can be triggered with different types of events, like changes of certain device status change, time or system events.
 
-<div class="imgWrapper">
+<div class="img-wrapper">
   <img src="/assets/images/designer-rules.png" alt="project title">
 </div>
 
