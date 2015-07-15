@@ -1,0 +1,23 @@
+# Site settings
+title: openHAB
+description: Welcome to openHAB - a vendor and technology agnostic open source automation software for your home. Build your smart home in no time!
+baseurl: ''
+url: http://openhab.org
+
+# Build settings
+markdown: kramdown
+sass:
+  style: :compressed
+
+# Plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Exclusions
+exclude: [
+  '.gitignore',
+  'CNAME',
+  'Gemfile',
+  'Gemfile.lock',
+]
