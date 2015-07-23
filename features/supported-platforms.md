@@ -8,7 +8,7 @@ redirect_from:
 
 ---
 
-openHAB is a pure java based platform so it can be run anywhere where java runs. Of cause it has certain requirements for the environment it runs in to provide comfortable level of performance but this doesn't limit it's usage on embedded platforms.
+openHAB is a pure java based platform so it can be run anywhere where java runs. Of course it has certain requirements for the environment it runs in to provide a comfortable level of performance but this doesn't limit its usage on embedded platforms.
 
 
 ## Requirements
