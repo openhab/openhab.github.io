@@ -12,17 +12,17 @@ redirect_from:
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-globe" ></i></span>Runtime core</h3></a>
     <p>This package includes core functionality of openHAB installation</p>
-    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.0-runtime.zip">Download</a>
+    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.1-runtime.zip">Download</a>
   </div>
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-resize-full-alt" ></i></span>Addons</h3>
     <p>This package includes all openHAB bindings and bundles</p>
-    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.0-addons.zip">Download</a>
+    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.1-addons.zip">Download</a>
   </div>
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-star" ></i></span>Demo setup</h3>
     <p>This package includes everything needed to setup openHAB demo</p>
-    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.0-demo-configuration.zip">Download</a>
+    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.1-demo-configuration.zip">Download</a>
   </div>
 </div>
 
@@ -34,14 +34,14 @@ redirect_from:
 <div class="row-fluid">
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="fa fa-windows" ></i></span>Windows</h3>
-    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.0-designer-win.zip">Download</a></div>
+    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.1-designer-win.zip">Download</a></div>
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i style="left: 15px" class="fa fa-apple"></i></span>OS X</h3>
-    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.0-designer-macosx64.zip">Download</a></div>
+    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.1-designer-macosx64.zip">Download</a></div>
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i style="left: 15px" class="fa fa-linux"></i></span>Linux</h3>
-    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.0-designer-linux.zip">32 bit</a>
-    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.0-designer-linux64bit.zip">64 bit</a></div>
+    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.1-designer-linux.zip">32 bit</a>
+    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.1-designer-linux64bit.zip">64 bit</a></div>
 </div>
 
 
@@ -58,5 +58,5 @@ redirect_from:
     <a href="http://itunes.apple.com/us/app/openhab/id492054521?mt=8"><img class='app-link' src="//devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg"></a></div>
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-star" ></i></span>GreenT</h3>
-    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.0-greent.zip">Download</a>
+    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.1-greent.zip">Download</a>
 </div>
