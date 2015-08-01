@@ -22,7 +22,7 @@ redirect_from:
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-star" ></i></span>Demo setup</h3>
     <p>This package includes everything needed to setup openHAB demo</p>
-    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.1-demo-configuration.zip">Download</a>
+    <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.7.1-demo.zip">Download</a>
   </div>
 </div>
 
