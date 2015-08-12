@@ -8,9 +8,13 @@ title: Community
 
 openHAB is proud to be a community driven project maintained by a passionate and growing community. Since its very beginning openHAB captured the attention of home automation enthusiasts and now thousands of homes worldwide are controlled through openHAB software.
 
-We maintain several communication channels to make it easy and effective for our users to communicate with each other and to provide support to them:
 
-* [openHAB Mailing List](http://groups.google.com/group/openhab)
+To make it easy and effective for our users to communicate with each other and to provide support to them a powerful platform for community discussions has been established:
+
+* [openHAB Forum](https://community.openhab.org)
+
+Furthermore we maintain several other communication channels:
+
 * [Github Issue Tracker](https://github.com/openhab/openhab/issues)
 * [Google+](https://plus.google.com/u/1/communities/104057398315501111932)
 * [KNX Users Forum [german]](http://knx-user-forum.de/openhab/)
