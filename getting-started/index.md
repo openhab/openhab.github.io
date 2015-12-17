@@ -106,17 +106,17 @@ In this file we tell openHAB how we want the items to be shown in the user inter
 *   You may find descriptions like:
 
         Frame label="Demo" {
-                          Text label="Group Demo" icon="1stfloor" {
+                Text label="Group Demo" icon="1stfloor" {
                           Switch item=Lights mappings=[OFF="All Off"]
                           Group item=Heating
                           Group item=Windows
                           Text item=Temperature
-                          }
+                }
                           Text label="Multimedia" icon="video" {
                           Selection item=Radio_Station mappings=[0=off, 1=HR3, 2=SWR3, 3=FFH, 4=Charivari]
                           Slider item=Volume
-                          }
-                          }
+                }
+        }
 
 *   This means that you want a frame with a visual label "Demo". Then, inside you want two elements:
 *   An item called Group Demo with "1stfloor" icon that contains 4 child items.
