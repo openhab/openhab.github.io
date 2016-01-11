@@ -56,4 +56,7 @@ redirect_from:
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i style="left: 15px" class="fa fa-apple"></i></span>iOS</h3>
     <a href="http://itunes.apple.com/us/app/openhab/id492054521?mt=8"><img class='app-link' src="//devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg"></a></div>
+  <div class="span4">
+    <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i style="left: 15px" class="icon-star"></i></span>Pebble</h3>
+    <a class="btn btnSmall" href="https://apps.getpebble.com/en_US/application/5542604d45bf334314000098?query=openhab&section=watchapps">Download</a></div>
 </div>
