@@ -73,4 +73,3 @@ redirect_from:
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-globe" ></i></span>Online Distro</h3>
     <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/mvn/org/openhab/distro/openhab-online/2.0.0.b1/openhab-online-2.0.0.b1.zip">Download</a></div>
 </div>
-</div>
