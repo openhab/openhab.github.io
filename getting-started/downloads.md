@@ -74,4 +74,4 @@ redirect_from:
     <a class="btn btnSmall" href="https://openhab.ci.cloudbees.com/job/openHAB-Distribution/lastSuccessfulBuild/artifact/distributions/openhab-online/target/openhab-online-2.0.0-SNAPSHOT.zip">Download</a></div>
 </div>
 
-Documentation for openHAB 2 can be found at [docs.openhab.org](http://docs.openhab.org/)
+<p>Documentation for openHAB 2 can be found at [docs.openhab.org](http://docs.openhab.org/)</p>
