@@ -73,3 +73,5 @@ redirect_from:
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-globe" ></i></span>Online Distro</h3>
     <a class="btn btnSmall" href="https://openhab.ci.cloudbees.com/job/openHAB-Distribution/lastSuccessfulBuild/artifact/distributions/openhab-online/target/openhab-online-2.0.0-SNAPSHOT.zip">Download</a></div>
 </div>
+
+Documentation for openHAB 2 can be found at [docs.openhab.org](http://docs.openhab.org/)
