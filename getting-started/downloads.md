@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="row-fluid">
   <div class="span4">
-    <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-globe" ></i></span>Runtime core</h3></a>
+    <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-globe" ></i></span>Runtime core</h3>
     <p>This package includes core functionality of openHAB installation</p>
     <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.8.3-runtime.zip">Download</a>
   </div>
