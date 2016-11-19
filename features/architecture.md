@@ -10,7 +10,7 @@ redirect_from:
 
 If you are completely new to openHAB and you prefer listening over reading, you can start with our presentation at Devoxx in 2012, which is available on Parleys:
 
-<div class='img-wrapper'><a href='http://parleys.com/play/5148922b0364bc17fc56c8c3/chapter10/agenda'><img alt='' src='https://raw.github.com/wiki/openhab/openhab/images/parleys.jpg'></a></div>
+<div class='img-wrapper'><a href='https://www.youtube.com/watch?v=PSrUiAzbaLg'><img alt='' src='https://raw.github.com/wiki/openhab/openhab/images/parleys.jpg'></a></div>
 
 The openHAB project is split into two parts: openhab runtime , which you will actually run on your server and which does the 'real' work and openhab designer which is more or less a configuration tool for the openhab runtime. It comes with user-friendly editors to configure your runtime, to define your UIs and to implement your rules.
 
