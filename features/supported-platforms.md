@@ -19,6 +19,8 @@ openHAB runs at any standard Windows, MacOS X or Linux machine with Java 1.7.
 
 openHAB has been tested and known to run on the following embedded platforms: [Raspberry Pi](http://www.raspberrypi.org/) , [BeagleBone Black](http://www.beaglebone.org/) , [UDOO](http://www.udoo.org/) , [Cubietruck](http://cubieboard.org/) .
 
+openHAB has also been tested and known to run on the following NAS platforms: [Synology Diskstation](http://www.synology.com/) and [QNAP](http://www.qnap.com/) .
+
 
 ## Windows x64
 
