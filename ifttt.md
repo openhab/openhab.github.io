@@ -14,13 +14,13 @@ We are thrilled to announce that openHAB users can now take advantage of IFTTT t
 
 ---
 
-[If This Then That (IFTTT)](https://ifttt.com) is a very popular web-based service that allows users to create "recipes", which can combine different web services into powerful automation rules.
+[If This Then That (IFTTT)](https://ifttt.com) is a very popular web-based service that allows users to create "applets", which can combine different web services into powerful automation rules.
 
 ## Why use openHAB with IFTTT?
 
 ---
 
-openHAB already integrates with [far more than 100 different smart home technologies](features-tech.html). While there are some web services like Twitter available, this is not the primary integration focus of openHAB. Therefore IFTTT perfectly complements the features of openHAB: With its [hundreds of channels](https://ifttt.com/channels), there are limitless new creative options: Be notified through text-to-speech if you are receive a DM on twitter, be warned through your lights if your favorite stock price falls below a certain threshold or put your house in away-mode when you turn on the ignition of your car - you can get further inspiration by browsing through existing recipes.
+openHAB already integrates with [far more than 200 different smart home technologies](/technologies.html). While there are some web services like Twitter available, this is not the primary integration focus of openHAB. Therefore IFTTT perfectly complements the features of openHAB: With its [hundreds of channels](https://ifttt.com/channels), there are limitless new creative options: Be notified through text-to-speech if you are receive a DM on twitter, be warned through your lights if your favorite stock price falls below a certain threshold or put your house in away-mode when you turn on the ignition of your car - you can get further inspiration by browsing through existing applets.
 
 <div class="row da-thumbs">
   <article class="span4 bloc">
@@ -73,6 +73,4 @@ We have also integrated with IFTTT’s [Do Button](https://ifttt.com/products/do
 
 ---
 
-IFTTT is available to all our users through the [my.openHAB service](https://my.openhab.org/). Once you have your my.openHAB account set up, all you have to do is to decide, which items you want to share with IFTTT and to activate the openHAB channel - see the [my.openHAB documentation](https://my.openhab.org/docs/ifttt) for details.
-
-Are you on Twitter? Then show us your favorite recipes by using the hashtag #openHABrecipe!
+IFTTT is available to all our users through the [myopenHAB service](http://www.myopenhab.org/). Once you have your myopenHAB account set up, all you have to do is to decide, which items you want to share with IFTTT and to activate the openHAB channel.

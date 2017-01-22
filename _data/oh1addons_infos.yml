@@ -197,6 +197,10 @@
   description: OneWire bus system is a lightweight and cheap bus system mostly used for sensors like, temperature, humidity, counters and presence
   wiki_url: https://github.com/openhab/openhab/wiki/One-Wire-Binding
 
+- label: Plex Binding
+  description: This binding supports multiple clients connected to a Plex Media Server
+  wiki_url: https://github.com/openhab/openhab/wiki/Plex-Binding
+
 - label: Visonic PowerMax Binding
   description: Powermax alarm panel series and the Powermaster alarm series
   wiki_url: https://github.com/openhab/openhab/wiki/Powermax-alarm-binding

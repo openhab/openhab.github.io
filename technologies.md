@@ -23,10 +23,10 @@ See below for a selection of supported technologies. To see a complete list of a
 
 <div class="span12">
 {% for addon in sorted_addons %}
-{% if addon.icon == 'true' %}{% assign url = "" %}{% for info in infos %}{% if info.label == addon.label %}{% assign url = info.wiki_url %}{% endif %}{% endfor %}
+{% if addon.icon == 'true' %}{% assign url = addon.url %}{% for info in infos %}{% if info.label == addon.label %}{% assign url = info.wiki_url %}{% endif %}{% endfor %}
 <div class="span2">
 <article>
-{% if url == '' %}<a href="http://docs.openhab.org/addons/bindings/{{ addon.id }}/readme.html">{% else %}<a href="{{ url }}">{% endif %}
+{% if url == nil %}<a href="http://docs.openhab.org/addons/bindings/{{ addon.id }}/readme.html">{% else %}<a href="{{ url }}">{% endif %}
 <section class="techInfo"><span class="imgHelper"></span><img class="techInfoImg" alt="{{ addon.label }}" src="/assets/images/tech/{{ addon.id }}.png" /></section></a>
 </article>
 </div>
