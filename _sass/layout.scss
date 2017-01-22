@@ -150,7 +150,7 @@ html {
 }
 
 body {
-  font-size: 0.8em;
+  font-size: 0.9em;
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
@@ -3616,7 +3616,21 @@ a.socialIcon {
   border-top: 1px solid #DBDBDB;
 }
 
-/* BACK TO TOP */
+.techInfo {
+  background: #ffffff;
+  margin-top: 20px;
+  height: 80px;
+  vertical-align: center;
+}
+
+.techInfoImg {
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 60px
+}  
+
 
 a#to-top:hover {
   background-color: #ff6600;

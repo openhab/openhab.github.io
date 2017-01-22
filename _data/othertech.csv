@@ -1,0 +1,4 @@
+id,label,url,icon
+amazon-echo,Amazon Echo,http://docs.openhab.org/addons/io/hueemulation/readme.html,true
+homekit,HomeKit,http://docs.openhab.org/addons/io/homekit/readme.html
+ifttt,IFTTT,http://www.openhab.org/ifttt.html,true
