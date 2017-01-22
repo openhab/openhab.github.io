@@ -26,21 +26,21 @@ ecotouch,binding,Waterkotte Ecotouch Binding,false
 energenie,binding,Energenie Binding,false
 enocean,binding,EnOcean Binding,true
 enphaseenergy,binding,Enphase Energy Binding,false
-epsonprojector,binding,Epson Projector Binding,false
+epsonprojector,binding,Epson Projector Binding,true
 expire,binding,Expire Binding,false
 fatekplc,binding,Fatek PLC Binding,false
 freeswitch,binding,Freeswitch Binding,false
 fritzbox,binding,Fritzbox Binding,false
 fritzboxtr064,binding,Fritzbox TR064 Binding,false
 fs20,binding,FS20 Binding,false
-garadget,binding,Garadget Binding,false
+garadget,binding,Garadget Binding,true
 gc100ir,binding,GC100IR Binding,false
 gpio,binding,GPIO Binding,false
 heatmiser,binding,Heatmiser Binding,true
 horizon,binding,Horizon Binding,false
 http,binding,HTTP Binding,true
 ihc,binding,IHC Binding,false
-insteonplm,binding,InsteonPLM Binding,false
+insteonplm,binding,InsteonPLM Binding,true
 intertechno,binding,Intertechno Binding,false
 ipx800,binding,IPX800 Binding,false
 irtrans,binding,IRTrans Binding,false
@@ -48,8 +48,8 @@ jointspace,binding,jointSPACE Binding,false
 km100,binding,KM200 Binding,false
 knx,binding,KNX Binding,true
 koubachi,binding,Koubachi Binding,false
-lcn,binding,LCN Binding,false
-lgtv,binding,LGTV Binding,false
+lcn,binding,LCN Binding,true
+lgtv,binding,LGTV Binding,true
 mochadx10,binding,MochadX10 Binding,false
 milight,binding,Milight Binding,false
 mios,binding,MiOS Binding,false
@@ -67,7 +67,7 @@ openenergymonitor,binding,OpenEnergyMonitor Binding,false
 onewire,binding,OneWire Binding,false
 owserver,binding,OWServer Binding,false
 panasonictv,binding,Panasonic TV Binding,false
-plex,binding,Plex Binding,false
+plex,binding,Plex Binding,true
 plugwise,binding,Plugwise Binding,false
 powermax,binding,Visonic PowerMax Binding,false
 rwesmarthome,binding,RWE SmartHome Binding,false

@@ -11,7 +11,7 @@ Every technology or device, social network or cloud platform integrated into ope
 
 Bindings provide integration with different home automation technologies and devices while there are other types of add-ons that provide integration and communication with social networks, instant messaging, cloud IoT platforms and much more.
 
-To see a complete list of add-ons, please [see the openHAB documentation](http://docs.openhab.org/addons/index.html).
+See below for a selection of supported technologies. To see a complete list of available add-ons, please [see the openHAB documentation](http://docs.openhab.org/addons/index.html).
 
 {% assign addons = "" | split: "|" %}
 {% assign infos = site.data.oh1addons_infos %}
