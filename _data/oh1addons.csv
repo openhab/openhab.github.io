@@ -1,0 +1,99 @@
+id,category,label,icon
+mail,action,Mail Action,false
+mios,action,MiOS Action,false
+nma,action,NotifyMyAndroid Action,false
+pebble,action,Pebble Action,false
+prowl,action,Prowl Action,false
+pushover,action,Pushover Action,true
+pushsafer,action,Pushsafer Action,false
+satel,action,Satel Action,false
+telegram,action,Telegram Action,false
+twitter,action,Twitter Action,true
+xbmc,action,XBMC Action,false
+xmpp,action,XMPP Action,true
+alarmdecoder,binding,Alarm Decoder Binding,false
+anel,binding,Anel Binding,true
+bticino,binding,Bticino Binding,false
+caldav-command,binding,CalDAV Binding (command),false
+caldav-personal,binding,CalDAV Binding (personal),false
+comfoair,binding,ComfoAir Binding,false
+denon,binding,Denon Binding,true
+dmx,binding,DMX OLA Binding,false
+dsmr,binding,DSMR Binding,false
+ebus,binding,eBUS Binding,false
+ecobee,binding,Ecobee Binding,true
+ecotouch,binding,Waterkotte Ecotouch Binding,false
+energenie,binding,Energenie Binding,false
+enocean,binding,EnOcean Binding,true
+enphaseenergy,binding,Enphase Energy Binding,false
+epsonprojector,binding,Epson Projector Binding,true
+expire,binding,Expire Binding,false
+fatekplc,binding,Fatek PLC Binding,false
+freeswitch,binding,Freeswitch Binding,false
+fritzbox,binding,Fritzbox Binding,false
+fritzboxtr064,binding,Fritzbox TR064 Binding,false
+fs20,binding,FS20 Binding,false
+garadget,binding,Garadget Binding,true
+gc100ir,binding,GC100IR Binding,false
+gpio,binding,GPIO Binding,false
+heatmiser,binding,Heatmiser Binding,true
+horizon,binding,Horizon Binding,false
+http,binding,HTTP Binding,true
+ihc,binding,IHC Binding,false
+insteonplm,binding,InsteonPLM Binding,true
+intertechno,binding,Intertechno Binding,false
+ipx800,binding,IPX800 Binding,false
+irtrans,binding,IRTrans Binding,false
+jointspace,binding,jointSPACE Binding,false
+km100,binding,KM200 Binding,false
+knx,binding,KNX Binding,true
+koubachi,binding,Koubachi Binding,false
+lcn,binding,LCN Binding,true
+lgtv,binding,LGTV Binding,true
+mochadx10,binding,MochadX10 Binding,false
+milight,binding,Milight Binding,false
+mios,binding,MiOS Binding,false
+modbus,binding,Modbus Binding,true
+mqtt,binding,MQTT Binding,true
+mqttitude,binding,OwnTracks (formerly MQTTitude) Binding,false
+myq,binding,Chamberlain MyQ Binding,false
+neohub,binding,Neohub Binding,false
+nest,binding,Nest Binding,true
+networkupstools,binding,Network UPS Tools Binding,false
+nibeheatpump,binding,Nibe Heatpump Binding,false
+nikobus,binding,Nikobus Binding,false
+novelanheatpump,binding,Novelan Heatpump Binding,false
+openenergymonitor,binding,OpenEnergyMonitor Binding,false
+onewire,binding,OneWire Binding,false
+owserver,binding,OWServer Binding,false
+panasonictv,binding,Panasonic TV Binding,false
+plex,binding,Plex Binding,true
+plugwise,binding,Plugwise Binding,false
+powermax,binding,Visonic PowerMax Binding,false
+rwesmarthome,binding,RWE SmartHome Binding,false
+samsungac,binding,Samsung A/C Binding,false
+sapp,binding,Sapp Binding,false
+satel,binding,Satel Binding,false
+serial,binding,Serial Binding,false
+snmp,binding,SNMP Binding,false
+souliss,binding,Souliss Binding,false
+swegonventilation,binding,Swegon Ventilation Binding,false
+tcp,binding,TCP/UDP Binding,false
+tinkerforge,binding,Tinkerforge Binding,false
+upb,binding,Universal Powerline Bus Binding,false
+weather,binding,Weather Binding,false
+wol,binding,WOL (Wake-on-LAN) Binding,false
+xbmc,binding,XBMC Binding,false
+influxdb,persistence,InfluxDB (v 1.0) Persistence,true
+gcal,persistence,Google Calendar Presence Simulator,true
+jdbc-derby,persistence,JDBC Persistence Apache Derby,false
+jdbc-h2,persistence,JDBC Persistence H2,false
+jdbc-hsqldb,persistence,JDBC Persistence HSQLDB,false
+jdbc-mariadb,persistence,JDBC Persistence MariaDB,false
+jdbc-mysql,persistence,JDBC Persistence MySQL,false
+jdbc-postgresql,persistence,JDBC Persistence PostgreSQL,false
+jdbc-sqlite,persistence,JDBC Persistence SQLite,false
+jpa,persistence,JPA Persistence,false
+mapdb,persistence,MapDB Persistence,false
+mysql,persistence,MySQL Persistence,false
+rrd4j,persistence,RRD4j Persistence,false
