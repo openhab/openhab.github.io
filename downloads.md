@@ -5,7 +5,7 @@ title: Downloads
 
 # openHAB 2.x
 
-## openHAB Distribution
+## openHAB Distribution 2.0
 
 ---
 
