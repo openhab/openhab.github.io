@@ -27,7 +27,7 @@ See below for a selection of supported technologies. To see a complete list of a
 <div class="span2">
 <article>
 {% if url == '' %}<a href="http://docs.openhab.org/addons/bindings/{{ addon.id }}/readme.html">{% else %}<a href="{{ url }}">{% endif %}
-<section class="techInfo"><img class="techInfoImg" alt="{{ addon.label }}" src="/assets/images/tech/{{ addon.id }}.png" /></section></a>
+<section class="techInfo"><span class="imgHelper"></span><img class="techInfoImg" alt="{{ addon.label }}" src="/assets/images/tech/{{ addon.id }}.png" /></section></a>
 </article>
 </div>
 {% endif %}{% endfor %}

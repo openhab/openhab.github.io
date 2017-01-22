@@ -3619,16 +3619,22 @@ a.socialIcon {
 .techInfo {
   background: #ffffff;
   margin-top: 20px;
-  height: 80px;
-  vertical-align: center;
+  height: 90px;
+  text-align: center
+}
+
+.imgHelper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .techInfoImg {
-  padding-top: 10px;
-  display: block;
+  vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
-  max-height: 60px
+  max-height: 80px;
+  max-width: 130px
 }  
 
 
