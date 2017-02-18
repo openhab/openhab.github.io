@@ -110,3 +110,23 @@ These are the downloads of the last official openHAB 1 release. If in doubt, ple
     <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.8.3-designer-linux.zip">32 bit</a>
     <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.8.3-designer-linux64bit.zip">64 bit</a></div>
 </div>
+
+## Acknowledgments
+
+---
+
+<div class="row-fluid">
+<ul>
+<li><a href="https://www.jfrog.com">JFrog</a> is providing an <a href="https://openhab.jfrog.io">Artifactory instance for our snapshots</a> as well as distributing our <a href="https://bintray.com/openhab">releases through Bintray</a>.</li>
+<li><a href="http://www.cloudbees.com">CloudBees</a> is providing a hosted <a href="https://openhab.ci.cloudbees.com/">Jenkins</a> through their CloudBees FOSS program.</li>
+</ul>
+</div>
+
+<div class="row-fluid">
+  <div class="span3">
+	<a href="https://www.bintray.com"><img src="/assets/images/bintray.png" width="150px" alt="Powered by JFrog Bintray"/></a>
+  </div>
+  <div class="span3">
+	<a href="https://www.cloudbees.com"><img src="/assets/images/cloudbees.png" width="150px" alt="Powered by CloudBees"/></a>
+  </div>
+</div>
