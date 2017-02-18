@@ -14,23 +14,25 @@ Bindings provide integration with different home automation technologies and dev
 See below for a selection of supported technologies. To see a complete list of available add-ons, please [see the openHAB documentation](http://docs.openhab.org/addons/index.html).
 
 {% assign addons = "" | split: "|" %}
-{% assign infos = site.data.oh1addons_infos %}
+{% assign ids = array[1] %}
+{% for addon in site.data.tech %}
+    {% unless ids contains addon.id %}
+        {% capture ids %}{{ ids }}|{{ addon.id }}{% endcapture %}
+		{% assign addons = addons | push: addon %}
+    {% endunless %}
+{% endfor %}
 
-{% for binding in site.data.bindings %}{% assign addons = addons | push: binding %}{% endfor %}
-{% for addon in site.data.oh1addons %}{% assign addons = addons | push: addon %}{% endfor %}
-{% for addon in site.data.othertech %}{% assign addons = addons | push: addon %}{% endfor %}
-{% assign sorted_addons = addons | sort: "label" %}
+{% assign sorted_addons = addons | sort: "sortlabel" %}
 
 <div class="span12">
 {% for addon in sorted_addons %}
-{% if addon.icon == 'true' %}{% assign url = addon.url %}{% for info in infos %}{% if info.label == addon.label %}{% assign url = info.wiki_url %}{% endif %}{% endfor %}
 <div class="span2">
 <article>
-{% if url == nil %}<a href="http://docs.openhab.org/addons/bindings/{{ addon.id }}/readme.html">{% else %}<a href="{{ url }}">{% endif %}
-<section class="techInfo"><span class="imgHelper"></span><img class="techInfoImg" alt="{{ addon.label }}" src="/assets/images/tech/{{ addon.id }}.png" /></section></a>
+<a href="{{ addon.url }}">
+<section class="techInfo"><span class="imgHelper"></span><img class="techInfoImg" alt="{{ addon.label }}" src="http://docs.openhab.org/images/addons/{{ addon.id }}.png" /></section></a>
 </article>
 </div>
-{% endif %}{% endfor %}
+{% endfor %}
 </div>
 .
 

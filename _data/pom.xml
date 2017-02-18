@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="MACROMAN"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.openhab</groupId>
+  <artifactId>docs</artifactId>
+  <version>2.0.0-SNAPSHOT</version>
+
+  <name>openHAB Website</name>
+
+  <packaging>pom</packaging>
+
+  <build>
+	<plugins>
+	  <plugin>
+		<groupId>org.codehaus.groovy.maven</groupId>
+		<artifactId>gmaven-plugin</artifactId>
+		<executions>
+		  <execution>
+			<id>aggregate-tech-list</id>
+			<phase>process-resources</phase>
+			<goals>
+			  <goal>execute</goal>
+			</goals>
+			<configuration>
+			  <source>
+			    def excludes = [ 'xbmc', 'frontiersiliconradio' ]
+				def techList = new File(project.basedir, 'tech.csv')
+				techList.write("id,label,sortlabel,url\n")
+				def bindings = new File(project.basedir, 'bindings.csv')
+            	for(def binding : bindings.readLines()) {
+	            	def entries = binding.split(',')
+	                if(entries[2].equals('true')) {
+	                    if(excludes.contains(entries[1])) continue;
+	                	def icon = entries[1];
+	                	if(entries[0]=='oh1') icon += '1'
+        	    		techList.append(entries[1] + ',' + entries[3] + ',' + entries[3].toLowerCase() + ', http://docs.openhab.org/addons/bindings/' + icon + '/readme.html\n')
+                	}
+        	    }
+				def persistences = new File(project.basedir, 'persistence.csv')
+            	for(def persistence : persistences.readLines()) {
+	            	def entries = persistence.split(',')
+	                if(entries[2].equals('true')) {
+        	    		techList.append(entries[1] + ',' + entries[3] + ',' + entries[3].toLowerCase() + ', http://docs.openhab.org/addons/persistence/' + entries[1] + '/readme.html\n')
+                	}
+        	    }
+				def voices = new File(project.basedir, 'voice.csv')
+            	for(def voice : voices.readLines()) {
+	            	def entries = voice.split(',')
+	                if(entries[1].equals('true')) {
+        	    		techList.append(entries[0] + ',' + entries[2] + ',' + entries[2].toLowerCase() + ', http://docs.openhab.org/addons/voice/' + entries[0] + '/readme.html\n')
+                	}
+        	    }
+				def others = new File(project.basedir, 'other.csv')
+            	for(def other : others.readLines()) {
+	            	def entries = other.split(',')
+	                if(entries.length>3 &amp;&amp; entries[3].equals('true')) {
+        	    		techList.append(entries[0] + ',' + entries[1] + ',' + entries[1].toLowerCase() + ',' + entries[2] + '\n')
+                	}
+        	    }
+			  </source>
+			</configuration>
+		  </execution>
+		</executions>
+	  </plugin>
+	</plugins>
+  </build>
+
+</project>
