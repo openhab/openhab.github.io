@@ -111,7 +111,7 @@ These are the downloads of the last official openHAB 1 release. If in doubt, ple
     <a class="btn btnSmall" href="https://bintray.com/artifact/download/openhab/bin/distribution-1.8.3-designer-linux64bit.zip">64 bit</a></div>
 </div>
 
-## Acknowledgments
+## Acknowledgements
 
 ---
 
