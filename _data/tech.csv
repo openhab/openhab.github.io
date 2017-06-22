@@ -25,13 +25,16 @@ epsonprojector,Epson Projector,epson projector, http://docs.openhab.org/addons/b
 fatekplc,Fatek PLC,fatek plc, http://docs.openhab.org/addons/bindings/fatekplc1/readme.html
 freebox,Freebox,freebox, http://docs.openhab.org/addons/bindings/freebox1/readme.html
 freeswitch,FreeSWITCH,freeswitch, http://docs.openhab.org/addons/bindings/freeswitch1/readme.html
+fritzbox,Fritz!Box,fritz!box, http://docs.openhab.org/addons/bindings/fritzbox1/readme.html
 garadget,Garadget,garadget, http://docs.openhab.org/addons/bindings/garadget1/readme.html
+hdanywhere,HDanywhere,hdanywhere, http://docs.openhab.org/addons/bindings/hdanywhere1/readme.html
 heatmiser,Heatmiser,heatmiser, http://docs.openhab.org/addons/bindings/heatmiser1/readme.html
 homematic,Homematic,homematic, http://docs.openhab.org/addons/bindings/homematic1/readme.html
 http,HTTP,http, http://docs.openhab.org/addons/bindings/http1/readme.html
 hue,Hue,hue, http://docs.openhab.org/addons/bindings/hue1/readme.html
 insteonplm,Insteon PLM,insteon plm, http://docs.openhab.org/addons/bindings/insteonplm1/readme.html
 knx,KNX,knx, http://docs.openhab.org/addons/bindings/knx1/readme.html
+koubachi,Koubachi,koubachi, http://docs.openhab.org/addons/bindings/koubachi1/readme.html
 lcn,LCN,lcn, http://docs.openhab.org/addons/bindings/lcn1/readme.html
 lgtv,LG TV,lg tv, http://docs.openhab.org/addons/bindings/lgtv1/readme.html
 modbus,Modbus,modbus, http://docs.openhab.org/addons/bindings/modbus1/readme.html
@@ -48,6 +51,7 @@ samsungtv,Samsung TV,samsung tv, http://docs.openhab.org/addons/bindings/samsung
 sonos,Sonos,sonos, http://docs.openhab.org/addons/bindings/sonos1/readme.html
 squeezebox,Squeezebox,squeezebox, http://docs.openhab.org/addons/bindings/squeezebox1/readme.html
 tellstick,Tellstick,tellstick, http://docs.openhab.org/addons/bindings/tellstick1/readme.html
+tinkerforge,TinkerForge,tinkerforge, http://docs.openhab.org/addons/bindings/tinkerforge1/readme.html
 urtsi,Somfy URTSI II,somfy urtsi ii, http://docs.openhab.org/addons/bindings/urtsi1/readme.html
 wemo,Wemo,wemo, http://docs.openhab.org/addons/bindings/wemo1/readme.html
 yamahareceiver,Yamaha Receiver (1.x),yamaha receiver (1.x), http://docs.openhab.org/addons/bindings/yamahareceiver1/readme.html
@@ -57,28 +61,38 @@ fsinternetradio,FS Internet Radio,fs internet radio, http://docs.openhab.org/add
 hue,Philips Hue,philips hue, http://docs.openhab.org/addons/bindings/hue/readme.html
 lifx,LIFX,lifx, http://docs.openhab.org/addons/bindings/lifx/readme.html
 sonos,Sonos,sonos, http://docs.openhab.org/addons/bindings/sonos/readme.html
+tradfri,Trådfri,trådfri, http://docs.openhab.org/addons/bindings/tradfri/readme.html
 wemo,Belkin Wemo,belkin wemo, http://docs.openhab.org/addons/bindings/wemo/readme.html
 yahooweather,YahooWeather,yahooweather, http://docs.openhab.org/addons/bindings/yahooweather/readme.html
+airquality,Air Quality,air quality, http://docs.openhab.org/addons/bindings/airquality/readme.html
 allplay,AllPlay,allplay, http://docs.openhab.org/addons/bindings/allplay/readme.html
 amazondashbutton,Amazon Dash Button,amazon dash button, http://docs.openhab.org/addons/bindings/amazondashbutton/readme.html
+atlona,Atlona,atlona, http://docs.openhab.org/addons/bindings/atlona/readme.html
 autelis,Autelis Pool Control,autelis pool control, http://docs.openhab.org/addons/bindings/autelis/readme.html
 avmfritz,AVM FRITZ!,avm fritz!, http://docs.openhab.org/addons/bindings/avmfritz/readme.html
+bigassfan,BigAssFan,bigassfan, http://docs.openhab.org/addons/bindings/bigassfan/readme.html
 chromecast,Chromecast,chromecast, http://docs.openhab.org/addons/bindings/chromecast/readme.html
 coolmasternet,CoolMasterNet,coolmasternet, http://docs.openhab.org/addons/bindings/coolmasternet/readme.html
+dlinksmarthome,D-Link Smart Home,d-link smart home, http://docs.openhab.org/addons/bindings/dlinksmarthome/readme.html
 dscalarm,DSC Alarm,dsc alarm, http://docs.openhab.org/addons/bindings/dscalarm/readme.html
+folding,Folding@home,folding@home, http://docs.openhab.org/addons/bindings/folding/readme.html
 freebox,Freebox,freebox, http://docs.openhab.org/addons/bindings/freebox/readme.html
+gardena,Gardena,gardena, http://docs.openhab.org/addons/bindings/gardena/readme.html
 globalcache,GlobalCache,globalcache, http://docs.openhab.org/addons/bindings/globalcache/readme.html
+hdanywhere,HDanywhere,hdanywhere, http://docs.openhab.org/addons/bindings/hdanywhere/readme.html
 hdpowerview,Hunter Douglas PowerView,hunter douglas powerview, http://docs.openhab.org/addons/bindings/hdpowerview/readme.html
 homematic,Homematic,homematic, http://docs.openhab.org/addons/bindings/homematic/readme.html
 keba,Keba,keba, http://docs.openhab.org/addons/bindings/keba/readme.html
 kodi,Kodi,kodi, http://docs.openhab.org/addons/bindings/kodi/readme.html
-kostalinverter,Kostal inverter,kostal inverter, http://docs.openhab.org/addons/bindings/kostalinverter/readme.html
+kostalinverter,Kostal Inverter,kostal inverter, http://docs.openhab.org/addons/bindings/kostalinverter/readme.html
 lutron,Lutron,lutron, http://docs.openhab.org/addons/bindings/lutron/readme.html
 max,MAX!,max!, http://docs.openhab.org/addons/bindings/max/readme.html
 miele,Miele@home,miele@home, http://docs.openhab.org/addons/bindings/miele/readme.html
 minecraft,Minecraft,minecraft, http://docs.openhab.org/addons/bindings/minecraft/readme.html
 netatmo,Netatmo,netatmo, http://docs.openhab.org/addons/bindings/netatmo/readme.html
+nikohomecontrol,Niko Home Control,niko home control, http://docs.openhab.org/addons/bindings/nikohomecontrol/readme.html
 oceanic,Oceanic,oceanic, http://docs.openhab.org/addons/bindings/oceanic/readme.html
+onebusaway,OneBusAway,onebusaway, http://docs.openhab.org/addons/bindings/onebusaway/readme.html
 onkyo,Onkyo,onkyo, http://docs.openhab.org/addons/bindings/onkyo/readme.html
 opensprinkler,OpenSprinkler,opensprinkler, http://docs.openhab.org/addons/bindings/opensprinkler/readme.html
 orvibo,Orvibo,orvibo, http://docs.openhab.org/addons/bindings/orvibo/readme.html
@@ -87,14 +101,19 @@ pulseaudio,Pulseaudio,pulseaudio, http://docs.openhab.org/addons/bindings/pulsea
 rfxcom,RFXCOM,rfxcom, http://docs.openhab.org/addons/bindings/rfxcom/readme.html
 russound,Russound,russound, http://docs.openhab.org/addons/bindings/russound/readme.html
 samsungtv,Samsung TV,samsung tv, http://docs.openhab.org/addons/bindings/samsungtv/readme.html
+sensebox,senseBox,sensebox, http://docs.openhab.org/addons/bindings/sensebox/readme.html
 silvercrestwifisocket,Silvercrest Wifi Plug,silvercrest wifi plug, http://docs.openhab.org/addons/bindings/silvercrestwifisocket/readme.html
+sleepiq,SleepIQ,sleepiq, http://docs.openhab.org/addons/bindings/sleepiq/readme.html
 smaenergymeter,SMA Energy Meter,sma energy meter, http://docs.openhab.org/addons/bindings/smaenergymeter/readme.html
 squeezebox,Logitech Squeezebox,logitech squeezebox, http://docs.openhab.org/addons/bindings/squeezebox/readme.html
+tankerkoenig,Tankerkönig,tankerkönig, http://docs.openhab.org/addons/bindings/tankerkoenig/readme.html
 tellstick,Tellstick,tellstick, http://docs.openhab.org/addons/bindings/tellstick/readme.html
 tesla,Tesla,tesla, http://docs.openhab.org/addons/bindings/tesla/readme.html
 urtsi,Somfy URTSI II,somfy urtsi ii, http://docs.openhab.org/addons/bindings/urtsi/readme.html
 vitotronic,Vitotronic,vitotronic, http://docs.openhab.org/addons/bindings/vitotronic/readme.html
+windcentrale,Windcentrale,windcentrale, http://docs.openhab.org/addons/bindings/windcentrale/readme.html
 yamahareceiver,Yamahareceiver,yamahareceiver, http://docs.openhab.org/addons/bindings/yamahareceiver/readme.html
+zigbee,ZigBee,zigbee, http://docs.openhab.org/addons/bindings/zigbee/readme.html
 zoneminder,Zoneminder,zoneminder, http://docs.openhab.org/addons/bindings/zoneminder/readme.html
 zwave,ZWave,zwave, http://docs.openhab.org/addons/bindings/zwave/readme.html
 influxdb,InfluxDB (0.9 and newer),influxdb (0.9 and newer), http://docs.openhab.org/addons/persistence/influxdb/readme.html
