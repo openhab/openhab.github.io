@@ -34,7 +34,7 @@ This means that openHAB
 
 openHAB is highly flexible and customizable, but this comes at a cost. You have to invest some time for learning its concepts and to set up an individual system tailored to your needs. Many parts of the setup require textual configuration, potentially accessing log files for debugging, etc. Therefore setting up openHAB is mainly a job for tech-savvy people - it is not a commercial off-the-shelf product that you plug in and that is ready to go.
 
-Nonetheless, this only applies to the setup and configuration of the system, which is usually done by a single person in the household, while all other family members are merely using the system. And here is where openHAB shines: It is very stable, has apps for all different end devices, allows voice interaction, etc, so once installed, it has a very high [WAF](https://en.wikipedia.org/wiki/Wife_acceptance_factor).
+Nonetheless, this only applies to the setup and configuration of the system, which is usually done by a single person in the household, while all other family members are merely using the system. And here is where openHAB shines: It is very stable, has apps for all different end devices, allows voice interaction, etc.
 
 ## Our Vision and Philosophy
 
