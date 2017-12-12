@@ -119,7 +119,8 @@ These are the downloads of the last official openHAB 1 release. If in doubt, ple
 <ul>
 <li class="icon-asterisk"><a href="https://www.jfrog.com">JFrog</a> is providing an <a href="https://openhab.jfrog.io">Artifactory instance for our snapshots</a> as well as distributing our <a href="https://bintray.com/openhab">releases through Bintray</a>.</li>
 <li class="icon-asterisk"><a href="http://www.cloudbees.com">CloudBees</a> is providing a hosted <a href="https://openhab.ci.cloudbees.com/">Jenkins</a> through their CloudBees FOSS program.</li>
-<li class="icon-asterisk"><a href="http://www.cloudbees.com">EJ Technologies</a> is providing us open source licenses for <a href="https://www.ej-technologies.com/products/jprofiler/overview.html">JProfiler</a> to make openHAB even more awesome.</li>
+<li class="icon-asterisk"><a href="https://www.digitalocean.com">DigitalOcean</a> sponsors our <a href="https://community.openhab.org/">community forum</a> hosting.</li>
+<li class="icon-asterisk"><a href="http://www.ej-technologies.com/">EJ Technologies</a> is providing us open source licenses for <a href="https://www.ej-technologies.com/products/jprofiler/overview.html">JProfiler</a> to make openHAB even more awesome.</li>
 </ul>
 </div>
 
@@ -129,6 +130,9 @@ These are the downloads of the last official openHAB 1 release. If in doubt, ple
   </div>
   <div class="span3">
 	<a href="https://www.cloudbees.com"><img src="/assets/images/cloudbees.png" width="150px" alt="Powered by CloudBees"/></a>
+  </div>
+  <div class="span3">
+	<a href="https://www.digitalocean.com/"><img src="https://www.digitalocean.com/assets/media/logos-badges/DO_Powered_by_Badge_blue-12f00e6a.png" width="150px"/></a>
   </div>
   <div class="span3">
 	<a href="http://www.ej-technologies.com/products/jprofiler/overview.html"><img src="https://www.ej-technologies.com/images/product_banners/jprofiler_medium.png" width="150px" alt="JProfiler"/></a>
