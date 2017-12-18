@@ -5,7 +5,7 @@ title: Downloads
 
 # openHAB 2.x
 
-## openHAB Distribution 2.1
+## openHAB Distribution 2.2
 
 ---
 
@@ -16,17 +16,17 @@ Besides this package, there are other installation options available, so please 
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-globe" ></i></span>Runtime Distribution</h3>
     <p>This is a zipped version of openHAB runtime. It is configured to install any add-on from a remote repository.</p>
-    <a class="btn btnSmall" href="https://bintray.com/openhab/mvn/download_file?file_path=org%2Fopenhab%2Fdistro%2Fopenhab%2F2.1.0%2Fopenhab-2.1.0.zip">Download</a>
+    <a class="btn btnSmall" href="https://bintray.com/openhab/mvn/download_file?file_path=org%2Fopenhab%2Fdistro%2Fopenhab%2F2.2.0%2Fopenhab-2.2.0.zip">Download</a>
   </div>
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-resize-full-alt" ></i></span>Add-ons</h3>
     <p>This package includes all openHAB add-ons for optional offline installation.</p>
-    <a class="btn btnSmall" href="https://bintray.com/openhab/mvn/download_file?file_path=org%2Fopenhab%2Fdistro%2Fopenhab-addons%2F2.1.0%2Fopenhab-addons-2.1.0.kar">Download</a>
+    <a class="btn btnSmall" href="https://bintray.com/openhab/mvn/download_file?file_path=org%2Fopenhab%2Fdistro%2Fopenhab-addons%2F2.2.0%2Fopenhab-addons-2.2.0.kar">Download</a>
   </div>
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-star" ></i></span>Legacy Add-ons</h3>
     <p>This package includes 1.x versions of add-ons, for which there is already a 2.x alternative available</p>
-    <a class="btn btnSmall" href="https://bintray.com/openhab/mvn/download_file?file_path=org%2Fopenhab%2Fdistro%2Fopenhab-addons-legacy%2F2.1.0%2Fopenhab-addons-legacy-2.1.0.kar">Download</a>
+    <a class="btn btnSmall" href="https://bintray.com/openhab/mvn/download_file?file_path=org%2Fopenhab%2Fdistro%2Fopenhab-addons-legacy%2F2.2.0%2Fopenhab-addons-legacy-2.2.0.kar">Download</a>
   </div>
 </div>
 
@@ -45,28 +45,6 @@ Besides this package, there are other installation options available, so please 
     <a href="https://apps.getpebble.com/en_US/application/5542604d45bf334314000098?query=openhab&section=watchapps"><img class='app-link' src="/assets/images/apps/pebble.png"></a></div>
 </div>
 
-## Eclipse SmartHome Designer
-
----
-
-The Eclipse SmartHome Designer is a tool for editing the textual configuration files of openHAB. It comes with IDE features, such as syntax high-lighting and validation and auto-completion.
-
-<div class="row-fluid">
-  <div class="span4">
-    <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="fa fa-windows" ></i></span>Windows</h3>
-    <a class="btn btnSmall" href="http://eclipse.org/downloads/download.php?file=/smarthome/releases/0.8.0/eclipsesmarthome-incubation-0.8.0-designer-win.zip">32 bit</a>
-    <a class="btn btnSmall" href="http://eclipse.org/downloads/download.php?file=/smarthome/releases/0.8.0/eclipsesmarthome-incubation-0.8.0-designer-win64.zip">64 bit</a></div>
-  <div class="span4">
-    <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i style="left: 15px" class="fa fa-apple"></i></span>OS X</h3>
-    <a class="btn btnSmall" href="http://eclipse.org/downloads/download.php?file=/smarthome/releases/0.8.0/eclipsesmarthome-incubation-0.8.0-designer-macosx64.zip">64 bit</a></div>
-  <div class="span4">
-    <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i style="left: 15px" class="fa fa-linux"></i></span>Linux</h3>
-    <a class="btn btnSmall" href="http://eclipse.org/downloads/download.php?file=/smarthome/releases/0.8.0/eclipsesmarthome-incubation-0.8.0-designer-linux.zip">32 bit</a>
-    <a class="btn btnSmall" href="http://eclipse.org/downloads/download.php?file=/smarthome/releases/0.8.0/eclipsesmarthome-incubation-0.8.0-designer-linux64.zip">64 bit</a></div>
-</div>
-
----
-
 # openHAB 1.x
 
 These are the downloads of the last official openHAB 1 release. If in doubt, please go for openHAB 2 above instead.
@@ -84,7 +62,7 @@ These are the downloads of the last official openHAB 1 release. If in doubt, ple
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-resize-full-alt" ></i></span>Addons</h3>
     <p>This package includes all openHAB bindings and bundles in their latest version that is compatible to the 1.8.3 runtime.</p>
-    <a class="btn btnSmall" href="https://bintray.com/openhab/mvn/download_file?file_path=org%2Fopenhab%2Fdistro%2Fopenhab%2F1.10.0%2Fopenhab-1.10.0-addons.zip">Download</a>
+    <a class="btn btnSmall" href="https://bintray.com/openhab/mvn/download_file?file_path=org%2Fopenhab%2Fdistro%2Fopenhab%2F1.11.0%2Fopenhab-1.11.0-addons.zip">Download</a>
   </div>
   <div class="span4">
     <h3 class="mediumIconH3"><span class="iconWrapper iconMedium"><i class="icon-star" ></i></span>Demo setup</h3>
