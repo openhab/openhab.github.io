@@ -36,4 +36,5 @@ function onAuthenticationSuccessful(code) {
 function onAuthenticationFailed() {
     $('#success-text').hide();
     $('form').hide();
+    $('#screenshot').hide();
 }
